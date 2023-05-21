@@ -4,9 +4,8 @@
    atraves de openfaas-cli.
    para ello debemos configurar el entorno y el sistema para tal.  Antes de configurar la plataforma para el servicio de funciones FaaS en OpenFaas, hicimos un par de cosas previamente, lo primero que tenemos que hacer es tener instalado kubernets.
    
-   para la instalacion de kubernets lo primero que hicimos fue instalar docker, en nuestro caso ya lo teniamos instalado así que solo proce
-   demos a instalar kubernets atraves de docker-desktop y habiltar un par de cosas, una vez hecho pasamos a la instalacion de minikube que 
-   es el comando que usamos para la creacion de clusteres, en seguida instalamos arkade comndo que nos permitira instalar openfaas.
+   Para la instalacion de kubernets lo primero que hicimos fue instalar docker, en nuestro caso ya lo teniamos instalado así que solo proce   demos a instalar kubernets atraves de docker-desktop y habiltar un par de cosas, una vez hecho eso, pasamos a la instalacion de minikube que 
+   es el comando que usamos para la creacion de clusteres, en seguida instalamos arkade comando que nos permitira instalar openfaas.
    
    La aplicacion consisti en pasar una url de una imagen desde el navegador, haciendo post de una url de una web donde tenga imagenes con caras
    y en seguida nos retornar la detecion de las caras en cuadraditos.
@@ -19,7 +18,7 @@
 
    ## configuraracion de la plataforma para el servicio de funciones FaaS en OpenFaas.
    
- Para configurar la plataforma de OpenFaas para el servicio de funciones FaaS (Function as a Service), debes seguir estos pasos:
+ Para configurar la plataforma de OpenFaas para el servicio de funciones FaaS (Function as a Service), utilizamos los seguientes pasos:
 
  Instalación de OpenFaas: Primero, debemos instalar OpenFaas en el entorno. para tal procedimientos seguimos los pasos de la session 7 de la practica, a continuacion citamos algunos de los procedimientos que son importantes:
 
@@ -56,7 +55,7 @@ Estos son los pasos básicos para configurar la plataforma de OpenFaas para el s
  
   ![img](./img/Captura%20de%20pantalla%202023-05-20%20173345.png)
  
-El  script para implementar una función en OpenFaaS utilizando la interfaz de línea de comandos (CLI) de OpenFaaS:
+El  script para implementar una función en OpenFaaS utilizando la interfaz de línea de comandos (CLI) de OpenFaaS que utilizamos es la seguiente:
 
 #### Construir y empaquetar la función
 
