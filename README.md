@@ -1,6 +1,6 @@
 ﻿# Practica2_CC2
 ## Desarrollo y descripcion del Problema
-   Para esta practica desarrollaremos una aplicacion con kubernerts usando opefaas para manipulaciones y creacion de funfiones 
+   Para esta practica desarrollaremos una aplicacion con kubernerts usando opefaas para manipulaciones y creacion de funciones. 
    atraves de openfaas-cli.
    para ello debemos configurar el entorno y el sistema para tal.  Antes de configurar la plataforma para el servicio de funciones FaaS en OpenFaas, hicimos un par de cosas previamente, lo primero que tenemos que hacer es tener instalado kubernets.
    
